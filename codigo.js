@@ -1,5 +1,7 @@
-var x = 1;
-while(x<5){
-    x = x + 1
-    console.log(x)
-}
+function mostrar() {
+    var inpu = document.getElementById("casa");
+    var texto = document.getElementById("primer-parrafo");
+    texto.innerText += inpu.value;
+};
+document.getElementById(boton).onclick = mostrar;
+
