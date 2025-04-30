@@ -1,7 +1,11 @@
-function mostrar() {
-    var inpu = document.getElementById("casa");
-    var texto = document.getElementById("primer-parrafo");
-    texto.innerText += inpu.value;
+
+function mifuncion(){
+    var entrada = document.getElementById('insertar');
+    var texto = document.getElementById('primer-parrafo');
+    texto.innerText += entrada.value
+
 };
-document.getElementById(boton).onclick = mostrar;
+
+
+document.getElementById('boton').onclick = mifuncion;
 
