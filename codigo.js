@@ -2,7 +2,7 @@
 function mostrarDato(){
     var entrada = document.getElementById('insertar');
     var texto = document.getElementById('resultado');
-    texto.innerText += 'El numero es: + \n'+entrada.value;
+    texto.innerText += 'El numero es:'+entrada.value + '\n';
     
 };
 
@@ -10,7 +10,7 @@ function vaciar(){
     var texto = document.getElementById('resultado');
     var texto2 = document.getElementById('total')
     texto.innerText = '';
-    resultado = 0;
+    resultado = ;
     texto2.innerText= resultado;
 }
 
@@ -34,12 +34,12 @@ function tabla(){
     var texto = document.getElementById('tabla');
     i = 0
     while(i<13){
-        texto.innerText+= numero +" x " + i+ "=" + (numero*i);
+        texto.innerText+= numero +" x " + i+ "=" + (numero*i)+'\n';
         i++
     }
 
 }
 
 var resultado= 0;
-// document.getElementById('boton').onclick = mifuncion;
+
 
